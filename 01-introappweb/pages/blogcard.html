@@ -4,25 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/blogcard.css">
 </head>
 <body>
 
-    <article>
+    <article class="card">
 
-        <img src="/assets/pattern.jpg" alt="" width="300" height="200" style="border-radius: 8%;">
+        <img src="/assets/pattern.jpg" alt="illustration" class="card__img" >
+        <div class="card__content">
+        <span class="card__tag">Learning</span>
+        <p class="card__date">Published 25 Sep 2024</p>
+        <h1 class="card__title">HTML & CSS Foundation</h1>
+        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium facere suscipit assumenda, .</p>
+        </div>
 
-        <p>Published 25 Sep 2024</p>
 
-        <h1>HTML & CSS Foundation</h1>
-
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium facere suscipit assumenda, .</p>
-
-        <footer>
-        <img src="/assets/profile.jpg" alt="" width="70" height="70" style="border-radius: 50%;">
-
-        <p>Luis Ramos</p>
-
+        <footer class="card__footer">
+        <img src="/assets/profile.jpg" alt="" class="card__avatar">
+        <p class="card__author">Luis Ramos</p>
         </footer>
 
     </article>
