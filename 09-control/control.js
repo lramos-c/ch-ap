@@ -66,10 +66,11 @@ function divideNum(number) {
 function secretSociety(names) {
 
     let secretSociety = "";
+    names.sort();
     for (let i = 0; i < names.length; i++) {
         secretSociety += (names[i].at(0));
     }
-    return secretSociety
+    return secretSociety;
 }
 
 function onlineStatus(users) {
@@ -130,7 +131,7 @@ function antipodalAverage(numbers) {
 //fizzBuzz()
 //console.log(calculateResistance([1,-2,10,4,5,6]));
 //console.log(divideNum(23));
-//console.log(secretSociety(["Horacio","Orlando","Laura","Andrea"]));
+console.log(secretSociety(["Horacio","Orlando","Laura","Andrea"]));
 //console.log(onlineStatus(['mockIng99', 'J0eyPunch', 'glassedFer', 'Kinomancer', 'Retrodog']));
 //console.log(makeMultipleArray(2,15));
 //console.log(checkPositiveDominance([-1, -3, -5, 4, 6767,5,6]))

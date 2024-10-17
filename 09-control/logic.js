@@ -1,3 +1,6 @@
+//Write a program that prompts a user for their data: username, age, and a list of their favorite movies. 
+//Store the information and then showcase it in the console.
+//Take note that the output for the films should add a small message like: 'The film {film} is one of my favorites'.
 function userProfile() {
     username = prompt("What is your username?")
     age = prompt("How old are you")
@@ -16,6 +19,8 @@ function userProfile() {
     return `Username:${username}, Age: ${age} years old, The film ${favoriteMovies[0]} is one of my favorites, but i also like ${movies}`;
 }
 
+//Write a program that asks for 10 numbers.
+//Using logical operators and any other javascript functions/structures you've seen before, determine and output the highest of those numbers.
 function highestNumber() {
     let highestNumber = -Infinity;
     let numbers = [];
