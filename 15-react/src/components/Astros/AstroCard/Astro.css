@@ -1,0 +1,15 @@
+.astro--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #b211a8;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #b211a8;
+    color: white;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    width: 200px;
+    justify-self: center;
+}

@@ -1,0 +1,17 @@
+.products--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products--card {
+    color: black;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgb(169, 42, 156);
+}

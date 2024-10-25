@@ -1,4 +1,4 @@
-
+import { Animal } from "./Animal.js";
 class Dog extends Animal {
     breed;
     owner;
@@ -79,4 +79,10 @@ class Dog extends Animal {
        }
 }
 
-const nala = new Dog("Karla", "Labrador", 4, "short", "white", "fine", "long");
+const nala = new Dog("Martha", "Poodle", 4, "short", "white", "fine", "long");
+const salsita = new Dog("Carlos", "Criolla", 4, "wavy", "black", "fine", "short");
+const tomas = new Dog("Muriel", "Labrador", 4, "short", "brown", "fine", "short");
+
+console.log(nala.getAllProperties());
+
+console.log(nala.getOwner);

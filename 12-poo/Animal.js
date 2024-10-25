@@ -84,6 +84,4 @@ export class Animal {
 // console.log(capybara.getAllProperties());
 
 
-console.log(nala.getAllProperties());
 
-console.log(nala.getOwner);
